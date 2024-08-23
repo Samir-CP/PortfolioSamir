@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Menu-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Samir</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO-->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fotoPerfil.png" alt="">
+            </div>
+            <h1>SAMIR CHIRINOS</h1>
+            <h2>Analista de Sistemas - Desarrollador web</h2>
+            <div class="redes">
+                <a href="https://fb.com/profile.php?id=100009062148720"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/samochp"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/samir-chirinos"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Samir-CP"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION SOBRE MI-->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-section">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Samir Chirinos.</span> Soy una persona responsable, perseverante y dedicada a mis actividades con disciplina. Me gusta aprender y siempre investigar
+            sobre las nuevas tecnologias. Con capacidad para trabajar en equipo.
+            Actualmente me titule de la universidad en el area de sistemas y estoy buscando participar en proyectos en el mundo del desarrollo web. </p>
+
+            <p><span>Si quieres ponerte en contacto conmigo escribeme a </span><a href="mailto:samchp4903@gmail.com">samchp4903@gmail.com</a></p>
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+591)70380933
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            samchp4903@gmail.com
+                        </li>
+                        <li>
+                            <strong>Pais</strong>
+                            Bolivia
+                        </li>
+                    </ul>
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Deporte</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>Bicicleta</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+            <a href="" download>Descargar mi CV</a> <i class="fa-solid fa-download"></i>
+                <span class="overlays"></span>
+              </button>
+        </div>
+      </section>
+
+      <!-- SECCION Skills-->
+       <section class="skills" id="skills">
+            <div class="contenido-section">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!--skils tecnicos-->
+                    <div class="col">
+                        <h3>Skills Tecnicos</h3>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PHP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Java</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Laravel</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MySQL</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>SQL Server</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Bootstrap</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Tailwind CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Postman</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>49%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Git</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--skils profesionales-->
+                    <div class="col">
+                        <h3>Skills Profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicacion</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Responsabilidad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Disciplina</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+       </section>
+
+       <!-- SECCION Curriculum-->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educacion</h3>
+                       
+                        <div class="item izq">
+                            <h4>Análisis de Sistemas</h4>
+                            <span class="casa">Universidad Ucatec</span>
+                            <span class="fecha">2021 - 2024</span>
+                            <p>Estudie en la universidad Ucatec la carrera de Analisis de sistemas donde adquiri conocimientos del desarrollo de software en lenguajes de programacion como
+                                php, java, c++. Tambien aplicando el MVC como patron de arquitectura y la gestion de base de datos con MySQL.
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Curso de Laravel profesional</h4>
+                            <span class="casa">Youtube</span>
+                            <span class="fecha">2023 - 2024</span>
+                            <p>Fueron 26 horas de capacitacion donde aprendi todas las bases del framework laravel con el cual pude hacer mi proyecto de grado de la universidad.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Curso profesional de JavaScript</h4>
+                            <span class="casa">Codigo Facilito</span>
+                            <span class="fecha">2023</span>
+                            <p>Fueron 14 modulos de aprendizaje de lenguaje JavaScript.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Desarrollando sistema minimarket (C# y SQL server)</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2022</span>
+                            <p>Fueron 41 horas de clases donde se desarrollo un sistema de escritorio con el lenguaje C# y usando SQL server como base de datos.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Aprende React desde cero: Hooks y State hasta TypeScript, Zod, Zustand, React Query, Next.js, React Router, MERN y PERN</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2024</span>
+                            <p>Actualmente estoy haciendo este curso para aprender mas sobre React, son 57 horas de aprendizaje.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Salesforce</h4>
+                            <span class="casa">Trailhead Salesforce</span>
+                            <span class="fecha">2023</span>
+                            <p>Aprendi a utilizar las herramientas de salesforce haciendo los cursos de trailhead llegando a conseguir 50.450 puntos y 56 insignias en el curso.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Curso intensivo de Ingles Básico</h4>
+                            <span class="casa">Universidad Mayor de San Simon</span>
+                            <span class="fecha">2024</span>
+                            <p>Curse 4 modulos en dos meses para reforzar el idioma Ingles.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia y Reconocimientos</h3>
+                        <div class="item der">
+                            <h4>Pasantia</h4>
+                            <span class="casa">Empresa de desarrollo Jatun</span>
+                            <span class="fecha">2023</span>
+                            <p>Jatun es una empresa de desarrollo ubicada en Cochabamba-Bolivia, ahi realize mi pasantia para cumplir la materia de la universidad.
+                                En la empresa me capacitaron para aprender Salesforce y al final desarrolle un sistema de venta para una libreria con los conocimientos que adquiri.
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Certificado</h4>
+                            <span class="casa">AssureSoft y Alcaldia de Cochabamba</span>
+                            <span class="fecha">2022</span>
+                            <p>Se me otorgo el certificado por haber participado en el 1er Campeonato de programacion"Cocha somos innovacion 2022"</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Certificado</h4>
+                            <span class="casa">AssureSoft y Alcaldia de Cochabamba</span>
+                            <span class="fecha">2023</span>
+                            <p>Se me otorgo el certificado por haber participado en el 2do Campeonato de programacion"Cocha somos innovacion 2023"</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION Portafolio-->
+         <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/pB1.png" alt="">
+                        <div class="overlay">
+                            <h3>Sistema web de Barbería</h3>
+                            <p>Sistema de registro y gestion de citas para la  barberia Cristyle Barber, cuenta con
+                                un modulo de administrador,empleado y cliente.</p>
+                        </div>
+                        <button><a href="https://barber-web-production.up.railway.app/">Ver sistema  <i class="fa-solid fa-arrow-right"></i>
+                            <span class="overlays"></span></a></button>
+                    </div>
+                    
+                    <div class="proyecto">
+                        <img src="img/pB2.png" alt="">
+                        <div class="overlay">
+                            <h3>Diseño de Portafolio</h3>
+                            <p>Mi Portafolio realizada con HTML,JS y CSS.</p>
+                        </div>
+                        <button><a href="https://github.com/Samir-CP/Portfolio-Samir">Ver código Github  <i class="fa-solid fa-arrow-right"></i>
+                            <span class="overlays"></span></a></button>
+                    </div>
+                    
+                    <div class="proyecto">
+                        <img src="img/pb3.png" alt="">
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>Calculadora funcional con todas la funciones basicas realizada con PHP, JS.</p>
+                        </div>
+                        <button><a href="https://github.com/Samir-CP/Calculadora">Ver código GitHub  <i class="fa-solid fa-arrow-right"></i>
+                            <span class="overlays"></span></a></button>
+                    </div>
+                    
+                    <div class="proyecto">
+                        <img src="img/pb4.png" alt="">
+                        <div class="overlay">
+                            <h3>Registro de Persona</h3>
+                            <p>Una pagina de un CRUD para registrar, editar, eliminar y mostrar usuarios con Base de datos.</p>
+                        </div>
+                        <button><a href="https://github.com/Samir-CP/CRUD">Ver código GitHub <i class="fa-solid fa-arrow-right"></i>
+                            <span class="overlays"></span></a></button>
+                    </div>
+                    
+                    <div class="proyecto">
+                        <img src="img/pb5.png" alt="">
+                            <div class="overlay">
+                                <h3>Sistema de Login</h3>
+                                <p>Un sistema de inicio de sesion con registo de cuentas de usuario con base de datos.</p>
+                            </div>
+                            <button><a href="https://github.com/Samir-CP/Usuarios">Ver código GitHub  <i class="fa-solid fa-arrow-right"></i>
+                                <span class="overlays"></span></a></button>   
+                    </div>
+                    
+                </div>
+            </div>
+         </section>
+
+          <!-- SECCION Contacto-->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!--formulario-->
+                    <div class="col">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="text" placeholder="Numero telefonico">
+                        <input type="text" placeholder="Direccion de correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!--mapa-->
+                    <div class="col">
+                        <img src="img/mapaubi.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Bolivia-Cochabamba
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    (+591)70380933
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: samchp4903@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FFOOTER-->
+         <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="https://fb.com/profile.php?id=100009062148720"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/samochp"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/samir-chirinos"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Samir-CP"><i class="fa-brands fa-github"></i></a>
+            </div>
+         </footer>
+         <script src="script.js"></script>
+</body>
+</html>

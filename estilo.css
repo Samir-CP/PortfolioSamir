@@ -318,6 +318,30 @@ html{
     0%{width: 0%;}
     100%{width: 85%;}
 }
+.skills .skill .astro{
+    width: 0%;
+    animation: 2s astro forwards;
+}
+@keyframes astro{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.skills .skill .typescript{
+    width: 0%;
+    animation: 2s typescript forwards;
+}
+@keyframes typescript{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
 .skills .skill .mysql{
     width: 0%;
     animation: 2s mysql forwards;
@@ -341,22 +365,6 @@ html{
 @keyframes bootstrap{
     0%{width: 0%;}
     100%{width: 65%;}
-}
-.skills .skill .tailwind{
-    width: 0%;
-    animation: 2s tailwind forwards;
-}
-@keyframes tailwind{
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-.skills .skill .postman{
-    width: 0%;
-    animation: 2s postman forwards;
-}
-@keyframes postman{
-    0%{width: 0%;}
-    100%{width: 49%;}
 }
 .skills .skill .git{
     width: 0%;
@@ -388,7 +396,7 @@ html{
 }
 @keyframes creatividad{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 .skills .skill .dedicacion{
     width: 0%;
@@ -407,14 +415,7 @@ html{
  
     100%{width: 90%;}
 }
-.skills .skill .disciplina{
-    width: 0%;
-    animation: 2s disciplina forwards;
-}
-@keyframes disciplina{
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
+
 /*seccion curriculum*/
 .curriculum{
     background-color: #1e2326;

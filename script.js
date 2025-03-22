@@ -28,18 +28,19 @@ function efectoHabilidades(){
         habilidaddes[3].classList.add("php");
         habilidaddes[4].classList.add("java");
         habilidaddes[5].classList.add("laravel");
-        habilidaddes[6].classList.add("mysql");
-        habilidaddes[7].classList.add("sqlserver");
-        habilidaddes[8].classList.add("bootstrap");
-        habilidaddes[9].classList.add("tailwind");
-        habilidaddes[10].classList.add("postman");
-        habilidaddes[11].classList.add("git");
-        habilidaddes[12].classList.add("comunicacion");
-        habilidaddes[13].classList.add("trabajo");
-        habilidaddes[14].classList.add("creatividad");
-        habilidaddes[15].classList.add("dedicacion");
-        habilidaddes[16].classList.add("responsabilidad");
-        habilidaddes[17].classList.add("disciplina");
+        habilidaddes[6].classList.add("astro");
+        habilidaddes[7].classList.add("react");
+        habilidaddes[8].classList.add("typescript");
+        habilidaddes[9].classList.add("mysql");
+        habilidaddes[10].classList.add("sqlserver");
+        habilidaddes[11].classList.add("bootstrap");
+        habilidaddes[12].classList.add("git");
+        habilidaddes[13].classList.add("comunicacion");
+        habilidaddes[14].classList.add("trabajo");
+        habilidaddes[15].classList.add("creatividad");
+        habilidaddes[16].classList.add("dedicacion");
+        habilidaddes[17].classList.add("responsabilidad");  
+       
     }
 }
 
